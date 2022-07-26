@@ -1,0 +1,226 @@
+body
+{
+    background-color: rgb(39, 39, 43);
+    color: rgb(218, 218, 218);
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    margin: 0 !important;
+}
+
+.wrapper
+{
+    width: 100%;
+}
+
+.header
+{
+    width: 100%;
+    padding: 40px 0;
+}
+
+.logo
+{
+    width: 600px;
+    font-size: 48px;
+    margin-left: auto;
+    margin-right: auto;    
+}
+
+.major 
+{
+    border-radius: 10px;
+    margin: 5px;
+    margin-right: 15px;    
+}
+
+.nav
+{
+    width: 100%;
+    padding: 10px 0;
+    background-color: rgb(218, 218, 218);
+    text-align: center;
+    border-top: 3px solid rgb(129, 128, 128);
+    border-bottom: 3px solid rgb(129, 128, 128);
+    
+}
+
+.content
+{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.title
+{
+    width: 100%;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    color: #448bce;
+    padding: 1px;
+    border-bottom: 3px solid rgb(129, 128, 128);
+    
+}
+
+.socials
+{
+    width: 100%;
+    text-align: center;
+    background-color: #292929;
+}
+
+.socialdivs
+{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+    .fb
+    {
+        width:250px;
+        height: 155px;
+        float: left;
+        color: white;
+    }
+        .fb:hover
+        {
+            background-color: #4668b3;
+        }
+
+    .ig
+    {
+        width:250px;
+        height: 155px;
+        float:left;
+        color: white;
+    }
+        .ig:hover
+        {
+            background-color: #f078d2;
+        }
+
+    .yt
+    {
+        width:250px;
+        height: 155px;
+        float:left;
+        color: white;
+    }
+        .yt:hover
+        {
+            background-color: #d94348;
+        }
+
+    .tw
+    {
+        width:250px;
+        height: 155px;
+        float:left;
+        color: white;
+    }
+        .tw:hover
+        {
+            background-color: #3095d3;
+        }
+
+.footer
+{
+    text-align: center;
+    background-color: #222;
+    padding: 15px;
+    color: white;
+}
+
+.sticky
+{
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 100;
+}
+
+ol
+{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    font-size: 18px;
+    height: 35px;
+    line-height: 200%;
+    display: inline-block;
+}
+
+ol a
+{
+    color: rgb(39, 39, 43);
+    text-decoration: none;
+    display: block;
+}
+
+ol > li
+{
+    float: left;
+    width: 200px;
+    height: 40px;
+    border-right: 1px dashed rgb(129, 128, 128);
+}
+
+ol > li:first-child
+{
+    border-left: 1px dashed rgb(129, 128, 128);
+}
+
+ol > li:hover
+{
+    background-color: rgb(129, 128, 128);
+    
+}
+
+ol > li:hover > a
+{
+    color: rgb(218, 218, 218);
+}
+
+ol > li > ul
+{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    height: 40px;
+    display: none;
+    
+}
+
+ol > li:hover > ul
+{
+    display: block;
+}
+
+ol > li > ul > li
+{
+    background-color: rgb(129, 128, 128);
+    position:relative;
+    z-index: 100;
+    border-top: 1px dashed rgb(218, 218, 218);
+}
+
+ol > li > ul > li > a
+{
+    color: rgb(218, 218, 218);
+}
+
+ol > li > ul > li:hover
+{
+    background-color:rgb(218, 218, 218);
+}
+
+ol > li > ul > li:hover > a
+{
+    color: rgb(39, 39, 43);
+}
